@@ -48,4 +48,23 @@
   width: 200px;
 }
 
+/* SWITCH TRANSITION */ 
+.switch-enter-from,
+.switch-leave-to {
+  opacity: 0;
+  transform: scale(0.2)
+}
+.switch-enter-to,
+.switch-leave-from {
+  opacity: 1;
+  transform: scale(1);
+}
+.switch-enter-active {
+  transition: all 0.4s ease;
+}
+.switch-leave-active {
+  transition: all 0.4s ease;
+}
+
+
 /*# sourceMappingURL=app.css.map */
